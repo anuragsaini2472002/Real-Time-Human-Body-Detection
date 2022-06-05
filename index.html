@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pose Detection</title>
+    <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <!-- ------------------------------------Navigation-------------------------------------- -->
+  <a name="home"></a>
+
+  <div class="container-fluid navigate ">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <nav class="navbar fixed-top navbar-expand-lg p-2">
+          <div class="logo">
+            <a href="#" class="navbar-brand">PoseIntelliJ</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navid">
+            <span class="navbar-toggler-icon mr-5">Menu</span>
+          </button>
+          <div class="collapse navbar-collapse nav-pills text-center" id="navid">
+            <ul class="navbar-nav ml-auto menu">
+              <li class="nav-item">
+                <a class="nav-link menu-btn" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-btn" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-btn" href="#gotovideo">Check</a>
+              </li>
+             
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------------------------------------------------------------------------------------------- -->
+  <!-- --------------------home section start ---------------------------------------->
+
+  <section class="home" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <div class="col-md-10 col-12">
+              <div class="max-width">
+                <div class="home-content">
+                  <div class="text-1">Let's Check our posture with </div>
+                  <div class="text-2">PoseIntelliJ</div>
+                  <div class="text-3">
+                    Just Click The Button And Analyze Yourself
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-12">
+              <div class="askbutton">
+                <a href="#gotovideo"><button class="btn btn-outline-light">Check Now</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+   <!-- -------------------------------------About Section------------------------------------------------------------ -->
+
+   <section class="abouts" id="about">
+    <div class="container-fluid questionmain">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="max-width">
+            <h2 class="title">About </h2>
+            <div class="serv-content">
+              <div class="row">
+                <div class="col-md-4 col-12  ">
+                  <div class="card">
+                    <div class="box">
+                      <i class="fas fa-hand-holding-heart" style="padding-top: 3px ;"></i>
+                      <div class="text">Be flexible and inclusive</div>
+                      <p>
+                        We do our best work when a diverse group of people collaborate in an environment of respect
+                        and trust. They Detect Real Time Body Posture.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 col-12  ">
+                  <div class="card">
+                    <div class="box">
+                      <i class="fas fa-chart-line"></i>
+                      <div class="text">Be transparent</div>
+                      <p>
+                        Using this system you analyze your posture mistakes while playing.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 col-12  ">
+                  <div class="card">
+                    <div class="box">
+                      <i class="fas fa-code"></i>
+                      <div class="text">Learn, share, Grow</div>
+                      <p>
+                        Adopt a Growth Mindset. Be curious and eager to learn. Aim for ethical, sustainable, long-term
+                        growth, both personally and in the organization.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+<span id="gotovideo"></span>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
